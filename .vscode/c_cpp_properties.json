@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include",//增加的
+                "/usr/local/include/openfhe",
+                "/usr/local/include/openfhe/core",
+                "/usr/local/include/openfhe/pke",
+                "/usr/local/include/openfhe/binfhe",
+                "/usr/local/include/openfhe/cereal"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}
