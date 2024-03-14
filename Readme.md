@@ -13,7 +13,8 @@
 #export LD_LIBRARY_PATH=/usr/local/lib
 ）走动态库，并且编译时，要链接到库的地址。
 
-# 在密钥序列化时，序列化和逆序列化时间在80s，87s左右。并且我们进行了压缩处理。使用了tar命令。但是压缩和解压缩时间为20s左右吧（未计算）。
+# 密钥序列化，
+序列化和逆序列化时间在80s，87s左右。并且我们进行了压缩处理。使用了tar命令。但是压缩和解压缩时间为20s左右吧（未计算）。
 
 # 编译运行，
 主要由GroupComp_main.cpp SingleComp_main.cpp MainWithSerial.cpp三个文件，main()函数前有编译命令。
